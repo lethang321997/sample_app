@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "https://hn-repo.fsoft.com.vn/repository/ruby-gem/"
 
 ruby "3.2.3"
 
@@ -25,6 +25,10 @@ gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+
+gem 'bootstrap-sass', '3.4.1'
+
+gem 'bcrypt', '3.1.13'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
@@ -64,4 +68,5 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  gem 'rails-controller-testing'
 end
